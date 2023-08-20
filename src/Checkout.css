@@ -1,0 +1,26 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(236, 235, 235);
+    height: max-content;
+}
+
+.checkout_adv{
+    position: absolute;
+    width: 73%;
+    z-index: -1;
+    margin-bottom: -50px;
+}
+
+.checkout_title{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    margin-top: 210px;
+}
+
+.checkout_left{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}

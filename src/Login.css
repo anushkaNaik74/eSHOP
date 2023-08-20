@@ -1,0 +1,94 @@
+.login{
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_logo{
+    align-items: center;
+    display: flex;
+    margin: 30px 0;
+}
+
+.login_logoImage{
+    color: burlywood;
+}
+
+.login_logoTitle{
+    color: rgb(13, 9, 84);
+}
+
+.login_container{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding:  20px;
+}
+
+.login_container > h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login_container > form > h5{
+    margin-bottom: 5px;
+}
+
+.login_container > form > input{
+    height:  30px;
+    margin-bottom: 10px;
+    background-color:whitesmoke;
+    width: 98%;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+}
+
+.login_container > p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login_SignInButton{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    background: #FFD814;
+    border: 1px solid #FCD200;
+    font-size: 11px;
+    height: 22px;
+    padding: 0 6px;
+    text-align: center;
+    font-weight: 500;
+    color: #0F1111;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: #F7CA00;
+    border-color: #F2C200;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%); 
+}
+
+.login_registerButton{
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    
+    border: 1px solid darkgray;
+    font-size: 11px;
+    height: 22px;
+    padding: 0 6px;
+    text-align: center;
+    font-weight: 500;
+    color: #0F1111;
+    margin-top: 10px;
+}
